@@ -1,0 +1,11 @@
+name: FallingBlockAPI
+main: me.LCastr0.FallingBlockAPI.FallingBlockAPI
+author: LCastr0
+version: 1.0
+commands:
+  fallingblock:
+    usage: /<command> <material id> <data>
+  staticblock:
+    usage: /<command> <material id> <data>
+  flyingblock:
+    usage: /<command> <material id> <data>
