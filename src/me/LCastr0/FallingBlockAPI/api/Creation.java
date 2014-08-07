@@ -9,16 +9,6 @@ import org.bukkit.entity.FallingBlock;
 
 public class Creation {
 	
-	private Creation instance;
-	
-	/**
-	 * @author LCastr0
-	 */
-	public Creation(){
-		super();
-		instance = this;
-	}
-	
 	/**
 	 * Creates a common falling block in a specific Location
 	 * 
@@ -104,10 +94,6 @@ public class Creation {
 	 */
 	public FlyingBlockController getFlyingBlockController(FlyingBlock customFallingBlock){
 		return new FlyingBlockController(customFallingBlock);
-	}
-	
-	public Creation getCreation(){
-		return instance;
 	}
 
 }
