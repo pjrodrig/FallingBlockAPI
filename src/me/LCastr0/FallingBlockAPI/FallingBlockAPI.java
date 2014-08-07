@@ -20,11 +20,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class FallingBlockAPI extends JavaPlugin{
 	
-	public static Creation creation;
+	private static Creation creation;
 	private static FallingBlockAPI instance;
 	
 	public void onLoad(){
-		creation = new Creation().getCreation();
 		instance = this;
 		Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&bFallingBlockAPI Loaded!"));
 	}
